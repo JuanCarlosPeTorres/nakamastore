@@ -1,0 +1,642 @@
+[
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Avengers",
+      "TituloDelProducto": "Funko pop! Loki with scepter 985",
+      "Exclusivos": "Entertainment EarthExclusive",
+      "Precio": "64.90",
+      "Descuento": "",
+      "Imagen": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_123083005_3551194_1?wid=1500&hei=1500&qlt=70"
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "She Hulk",
+      "TituloDelProducto": "Funko pop! Hulk 1130",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Doctor Strange",
+      "TituloDelProducto": "Funko pop! Doctor strange 169",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Guardianes de la Galaxia Vol.2",
+      "TituloDelProducto": "Funko pop! Stard - Lord 198",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "I am Groot",
+      "TituloDelProducto": "Funko pop! Groot in onesie 1192",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Marvel Zombies",
+      "TituloDelProducto": "Funko pop! Zombie Gambit 788",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Marvel ",
+      "TituloDelProducto": "Funko pop! Red Hulk 854",
+      "Exclusivos": "Special Edition",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Marvel",
+      "TituloDelProducto": "Funko pop! J. Jonah Jameson 1057",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Marvel",
+      "TituloDelProducto": "Funko pop! Spider - Man (Japanese TV series) 932",
+      "Exclusivos": "Special Edition",
+      "Precio": "68.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Marvel",
+      "TituloDelProducto": "Funko pop! Falcon 881",
+      "Exclusivos": "2021 Summer Convention",
+      "Precio": "68.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Venom Let There Be Carnage",
+      "TituloDelProducto": "Funko pop! Carnage 889",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Wandavision",
+      "TituloDelProducto": "Funko pop! Scarlet witch 823",
+      "Exclusivos": "Special Edition",
+      "Precio": "64.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "The Infinity Saga",
+      "TituloDelProducto": "Funko pop! Thanos 52",
+      "Exclusivos": "Art Series",
+      "Precio": "64.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Capitan América: Civil War",
+      "TituloDelProducto": "Funko pop! War machine 128",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Capitan América: Civil War",
+      "TituloDelProducto": "Funko pop! Hawkeye 1144",
+      "Exclusivos": "Amazon Exclusive",
+      "Precio": "68.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Capitan América: Civil War",
+      "TituloDelProducto": "Funko pop! Ant - Man 1150",
+      "Exclusivos": "Amazon Exclusive",
+      "Precio": "68.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Capitan América: Civil War",
+      "TituloDelProducto": "Funko pop! Vision 1143",
+      "Exclusivos": "Amazon Exclusive",
+      "Precio": "68.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Capitana Marvel",
+      "TituloDelProducto": "Funko pop! Capitana Marvel 908",
+      "Exclusivos": "Only At",
+      "Precio": "68.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Avengers Infinity War",
+      "TituloDelProducto": "Funko pop! Thor 286",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.2",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Avengers Infinity War",
+      "TituloDelProducto": "Funko pop! Bruce Banner 419",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.2",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Avengers Infinity War",
+      "TituloDelProducto": "Funko pop! Iron spider 287",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Spider Man: No Way Home",
+      "TituloDelProducto": "Funko pop! Spider - Man 1073",
+      "Exclusivos": "AAA anime Exclusive",
+      "Precio": "68.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Spider Man: No Way Home",
+      "TituloDelProducto": "Funko pop! Electro 1164",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.2",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Spider Man: No Way Home",
+      "TituloDelProducto": "Funko pop! Spider - Man 1160",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko ",
+      "Categoria": "Marvel",
+      "Serie": "Guardianes de la Galaxia Holiday Special",
+      "TituloDelProducto": "Funko pop! Stard - Lord 1104",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Guardianes de la Galaxia Holiday Special",
+      "TituloDelProducto": "Funko pop! Groot 1105",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Guardianes de la Galaxia Holiday Special",
+      "TituloDelProducto": "Funko pop! Drax 1106",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Spider Man: Maximun Venom",
+      "TituloDelProducto": "Funko pop! Venomized Miles Morales 600",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko ",
+      "Categoria": "Marvel",
+      "Serie": "Venom",
+      "TituloDelProducto": "Funko pop! Corrupted Venom 517",
+      "Exclusivos": "",
+      "Precio": "79.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Venom",
+      "TituloDelProducto": "Funko pop! Carnage 367",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Venom ",
+      "TituloDelProducto": "Funko pop! Venomized Doctor Doom 916",
+      "Exclusivos": "FYE Exclusive",
+      "Precio": "80.00",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko ",
+      "Categoria": "Marvel",
+      "Serie": "Venom",
+      "TituloDelProducto": "Funko pop! Venomized Daredevil 513",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.2",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Mech Strike: Monster Hunter",
+      "TituloDelProducto": "Funko pop! Spider - Man 997",
+      "Exclusivos": "",
+      "Precio": "69.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Mech Strike: Monster Hunter",
+      "TituloDelProducto": "Funko pop! Doctor Doom 990",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Marvel 80 years",
+      "TituloDelProducto": "Funko pop! Beta Ray Bill 582",
+      "Exclusivos": "Special Edition",
+      "Precio": "64.90",
+      "Descuento": "0.1",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Marvel 80 years",
+      "TituloDelProducto": "Funko pop! Wolverine 547",
+      "Exclusivos": "",
+      "Precio": "64.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Avengers End game",
+      "TituloDelProducto": "Funko pop! Capitana Marvel 459 ",
+      "Exclusivos": "Entertainmet Earth Exckusive",
+      "Precio": "64.90",
+      "Descuento": "0.1",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Avengers End game",
+      "TituloDelProducto": "Funko pop! Capitana Marvel 459",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.1",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Avengers End game",
+      "TituloDelProducto": "Funko pop! Black widow 454",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Avengers End game",
+      "TituloDelProducto": "Funko pop! Korg 577",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.15",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Avengers End game",
+      "TituloDelProducto": "Funko pop! Hulk 451",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Avengers End game",
+      "TituloDelProducto": "Funko pop! Thor 452",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.15",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Avengers End game",
+      "TituloDelProducto": "Funko pop! Capitan América 573",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Thor Love and Thunder",
+      "TituloDelProducto": "Funko pop! Ravage Thor 1085",
+      "Exclusivos": "Entertainment Earth Exclusive",
+      "Precio": "69.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Thor Love and Thunder",
+      "TituloDelProducto": "Funko pop! Gorr 1092",
+      "Exclusivos": "Speciality Series",
+      "Precio": "69.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "What if?",
+      "TituloDelProducto": "Funko pop! Doctor Strange Supreme 874",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "What if?",
+      "TituloDelProducto": "Funko pop! Zolavision 975",
+      "Exclusivos": "Only At",
+      "Precio": "69.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "What if?",
+      "TituloDelProducto": "Funko pop! Doctor Strange Supreme 874",
+      "Exclusivos": "Amazon Exclusive",
+      "Precio": "69.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "What if?",
+      "TituloDelProducto": "Funko pop! Party Thor 877",
+      "Exclusivos": "Walmart",
+      "Precio": "69.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "What if?",
+      "TituloDelProducto": "Funko pop! King Killmonger 878",
+      "Exclusivos": "Only At",
+      "Precio": "69.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "What if?",
+      "TituloDelProducto": "Funko pop! Gamora with blade of Thanos 970",
+      "Exclusivos": "PX previews",
+      "Precio": "69.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "What if?",
+      "TituloDelProducto": "Funko pop! The Witcher 928",
+      "Exclusivos": "Funko Shop",
+      "Precio": "79.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "What if?",
+      "TituloDelProducto": "Funko pop! Zombie Strange 946",
+      "Exclusivos": "Special Edition",
+      "Precio": "64.90",
+      "Descuento": "0.1",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Spider - Man: Miles Morales (Gameverse)",
+      "TituloDelProducto": "Funko pop! Miles Morales (Crimson Cowl suit) 770",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.1",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Spider - Man: Miles Morales (Gameverse)",
+      "TituloDelProducto": "Funko pop! Miles Morales (Winter Suit) 771",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.1",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Spider - Man: Miles Morales (Gameverse)",
+      "TituloDelProducto": "Funko pop! Miles Morales (Strike Suit) 766",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.1",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Spider - Man: Miles Morales (Gameverse)",
+      "TituloDelProducto": "Funko pop! Miles Morales (2020 Suit) 769",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.1",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Spider - Man: Miles Morales (Gameverse)",
+      "TituloDelProducto": "Funko pop! Miles Morales (Purple Reign) 839",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.1",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Spider - Man: Miles Morales (Gameverse)",
+      "TituloDelProducto": "Funko pop! Miles Morales (Advanced Tech Suit) 772",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "0.1",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Doctor Strange: In the Multiverse Of Madness",
+      "TituloDelProducto": "Funko pop! America Chavez 1002",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Doctor Strange: In the Multiverse Of Madness",
+      "TituloDelProducto": "Funko pop! Siniestro Strange 1030",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Doctor Strange: In the Multiverse Of Madness",
+      "TituloDelProducto": "Funko pop! Wong 1001",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Doctor Strange: In the Multiverse Of Madness",
+      "TituloDelProducto": "Funko pop! Doctor Strange 1000",
+      "Exclusivos": "",
+      "Precio": "59.90",
+      "Descuento": "",
+      "Imagen": ""
+  },
+  {
+      "Marca": "Funko",
+      "Categoria": "Marvel",
+      "Serie": "Doctor Strange: In the Multiverse Of Madness",
+      "TituloDelProducto": "Funko pop! Doctor Strange 1000",
+      "Exclusivos": "Chase",
+      "Precio": "89.90",
+      "Descuento": "",
+      "Imagen": ""
+  }
+]

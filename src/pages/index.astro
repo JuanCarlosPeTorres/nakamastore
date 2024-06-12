@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { ProductList } from "../components/ProductList.tsx";
+import { Banner } from "../components/Banner.tsx";
+---
+
+<Layout title="NakamaStore - Catálogo de Funkos">
+  <main>
+    <Banner client:visible />
+    <ProductList client:visible />
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 20px;
+  }
+</style>

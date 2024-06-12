@@ -1,0 +1,53 @@
+---
+import { ViewTransitions } from "astro:transitions";
+import "@fontsource/kanit";
+import { ThemeModeScript } from "flowbite-react";
+import { Header } from "../components/Header.tsx";
+import { FooterItem } from "../components/Footer";
+---
+
+<!doctype html>
+<html lang="en">
+  <head> </head>
+  <body class="flex flex-col min-h-screen">
+    <Header client:visible />
+    <main class="flex-grow">
+      <slot />
+    </main>
+    <FooterItem client:visible />
+    <ThemeModeScript />
+    <ViewTransitions />
+  </body>
+
+  <style is:global>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      font-family: "Kanit", system-ui, sans-serif;
+      background: #13151a;
+      background-size: 224px;
+      color-scheme: dark light;
+    }
+
+    @media (min-width: 768px) {
+      .md\\:hidden {
+        display: none;
+      }
+      .md\\:flex {
+        display: flex;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .lg\\:hidden {
+        display: none;
+      }
+      .lg\\:flex {
+        display: flex;
+      }
+    }
+  </style>
+</html>

@@ -1,0 +1,65 @@
+---
+import { CarouselImages } from "../../components/CarouselImages";
+import Layout from "../../layouts/Layout.astro";
+import { getData, getProduct } from "../../lib/data";
+import { type ProductNakama } from "../../lib/data";
+import { getProducts } from "../../lib/products";
+
+const { productId } = Astro.params;
+
+let product: ProductNakama | undefined;
+if (productId) {
+  product = await getProduct(productId);
+}
+
+const images = getProducts()[0].image;
+
+console.log(images);
+
+export function getStaticPaths() {
+  const products = getData();
+  return products.map((product) => ({
+    params: { productId: product.nombre },
+    // props: { product },
+  }));
+}
+---
+
+<Layout title={productId}>
+  <div class="grid grid-cols-2 gap-4 p-4 container mx-auto">
+    <CarouselImages images={images} client:visible />
+
+    <div class="flex flex-col space-y-4">
+      <h1 class="text-5xl font-bold">{product?.nombre}</h1>
+
+      <p class="uppercase text-gray-500">{product?.categoria}</p>
+      <p class="text-green-600 font-semibold">NEW</p>
+
+      <p class="text-lg font-semibold">S/.{product?.precio}</p>
+
+      <p class="text-sm text-gray-500">
+        or 4 interest-free payments with afterpay
+      </p>
+
+      <div class="flex items-center space-x-4">
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          ADD TO CART
+        </button>
+        <label class="flex items-center space-x-2">
+          <input type="checkbox" class="mr-2" />
+          <span class="text-gray-500">Gift Box ($3.50)</span>
+        </label>
+      </div>
+      <p class="mt-2 text-gray-600">
+        "Protect your Pop! figure, and all corners of its packaging, with the
+        new, exclusive UV Pop! Protector hard-shell case. Each Protector fits a
+        standard size Pop! box, protects against color fading caused by UV
+        damage, stacks, and the clear plastic allows you to still see every side
+        of your collectible. "
+      </p>
+
+    </div>
+  </div>
+</Layout>
