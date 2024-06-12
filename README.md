@@ -1,6 +1,6 @@
 # NakamaStore
 
-Nakamastore es una tienda en línea diseñada para ofrecer una experiencia de compra única y fluida. Nuestro objetivo es proporcionar productos de alta calidad y un servicio excepcional a nuestros clientes.
+Este proyecto es una tienda en línea actualmente en construcción, diseñada para servir como un catálogo de productos y un medio de contacto para los clientes. Esta plataforma permite a los usuarios explorar una variedad de items disponibles y obtener información detallada, así como contactar fácilmente con la tienda para realizar consultas o compras.
 
 ## 🧰 Tecnologías Utilizadas
 
