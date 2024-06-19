@@ -41,8 +41,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
               className="bg-white absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100"
               src={
                 product.imagen === ""
-                  ? "../funkos/01/2.png"
-                  : "../funkos/01/2.png"
+                  ? "funkos/01/2.png"
+                  : "funkos/01/2.png"
               }
               alt={product.nombre}
             />
