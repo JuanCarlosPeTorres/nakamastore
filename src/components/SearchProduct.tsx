@@ -62,7 +62,7 @@ export const SearchProduct: React.FC = () => {
           onChange={handleInputChange}
           onFocus={() => setIsFocused(true)}
           placeholder="Buscar"
-          className={`border p-2 rounded transition-all duration-300 ${
+          className={`border p-2 rounded transition-all duration-300 bg-nakama-black ${
             isFocused ? "w-96" : "w-64"
           }`}
         />
@@ -71,13 +71,13 @@ export const SearchProduct: React.FC = () => {
       {isFocused && products.length > 0 && (
         <div
           ref={searchResultsRef}
-          className="absolute mt-2 left-0 w-full bg-white border rounded shadow-md max-h-60 overflow-y-auto z-50"
+          className="absolute mt-2 left-0 w-full bg-white border rounded shadow-md max-h-60 overflow-y-auto z-50 scrollbar-hide"
         >
           {products.map((product, index) => (
             <a
               href={`/products/${product.nombre}`}
               key={index}
-              className="block p-2 hover:bg-gray-100"
+              className="block py-2 pr-4 pl-2 hover:bg-gray-100"
               onClick={handleProductClick}
             >
               <div className="flex flex-row items-center gap-2">

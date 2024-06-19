@@ -1,42 +1,83 @@
-import { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FaBars, FaSearch } from "react-icons/fa";
 import { SearchProduct } from "./SearchProduct";
+import { PanelLeft } from "./PanelLeft";
 
-export const Header = () => {
+export const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const panelRef = useRef<HTMLDivElement>(null);
+
+  const toggleMenuBar = () => {
+    setMenuOpen(!menuOpen);
+    setSearchOpen(false);
+  };
+
+  const toggleSearch = () => {
+    setSearchOpen(!searchOpen);
+    setMenuOpen(false);
+  };
+
+  const handleClickOutside = (event: MouseEvent) => {
+    if (panelRef.current && !panelRef.current.contains(event.target as Node)) {
+      setMenuOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (menuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [menuOpen]);
 
   return (
     <header className="bg-nakama-black text-nakama-white shadow-lg">
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        <div className="flex items-center md:hidden">
+        <div className="flex items-center lg:hidden">
           <button
-            onClick={() => setMenuOpen(!menuOpen)}
+            onClick={toggleMenuBar}
             className="text-nakama-white hover:text-nakama-orange focus:outline-none"
           >
             <FaBars className="w-6 h-6" />
           </button>
         </div>
 
-        <div className="flex items-center justify-center mx-auto">
-          <span className="text-2xl sm:text-3xl font-bold">NakamaStore</span>
+        <div className="flex items-center justify-start ml-0">
+          <a href="/">
+            <span className="text-2xl sm:text-3xl font-bold">NakamaStore</span>
+          </a>
         </div>
 
-        <div className="flex items-center md:hidden">
+        <div className="flex items-center lg:hidden">
           <button
-            onClick={() => setSearchOpen(!searchOpen)}
+            onClick={toggleSearch}
             className="text-nakama-white hover:text-nakama-orange focus:outline-none"
           >
             <FaSearch className="w-6 h-6" />
           </button>
         </div>
 
-        <nav className="hidden md:flex space-x-4 mx-auto">
-          <a href="#" className="hover:text-nakama-orange">Home</a>
-          <a href="#" className="hover:text-nakama-orange">About</a>
-          <a href="#" className="hover:text-nakama-orange">Services</a>
-          <a href="#" className="hover:text-nakama-orange">Pricing</a>
-          <a href="#" className="hover:text-nakama-orange">Contact</a>
+        <nav className="hidden lg:flex space-x-4">
+          <a href="/" className="hover:text-nakama-orange">
+            Home
+          </a>
+          <a href="#" className="hover:text-nakama-orange">
+            About
+          </a>
+          <a href="#" className="hover:text-nakama-orange">
+            Services
+          </a>
+          <a href="#" className="hover:text-nakama-orange">
+            Pricing
+          </a>
+          <a href="#" className="hover:text-nakama-orange">
+            Contact
+          </a>
         </nav>
 
         <div className="hidden lg:flex">
@@ -44,20 +85,18 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className={`${menuOpen ? "block" : "hidden"} md:hidden bg-nakama-black`}>
-        <nav className="flex flex-col items-center space-y-2 py-4">
-          <a href="#" className="hover:text-nakama-orange">Home</a>
-          <a href="#" className="hover:text-nakama-orange">About</a>
-          <a href="#" className="hover:text-nakama-orange">Services</a>
-          <a href="#" className="hover:text-nakama-orange">Pricing</a>
-          <a href="#" className="hover:text-nakama-orange">Contact</a>
-        </nav>
-      </div>
-
-      <div className={`${searchOpen ? "block" : "hidden"} md:hidden bg-nakama-black`}>
+      <div
+        className={`${
+          searchOpen ? "block" : "hidden"
+        } lg:hidden bg-nakama-black`}
+      >
         <div className="flex justify-center py-4">
           <SearchProduct />
         </div>
+      </div>
+
+      <div ref={panelRef}>
+        <PanelLeft menuOpen={menuOpen} onClose={() => setMenuOpen(false)} />
       </div>
     </header>
   );

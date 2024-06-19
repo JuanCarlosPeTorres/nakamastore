@@ -21,7 +21,7 @@ export default {
         "accent-dark": "#13151a",
         "accent-gradient": "#13151a",
         nakama: {
-          black: "#000000",
+          black: "#13151a",
           white: "#FFFFFF",
           darkred: "#A52A2A",
           lightbrown: "#D2B48C",

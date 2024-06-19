@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { ProductCard } from "./ProductCard.tsx";
 import { getData, type ProductNakama } from "../lib/data.ts";
-import { Pagination } from "flowbite-react";
+import { Flowbite, Pagination } from "flowbite-react";
+import { buttonTheme, paginationTheme } from "../utils/theme.ts";
 
 export const ProductList: React.FC = () => {
   const [products, setProducts] = useState<ProductNakama[]>([]);
@@ -25,22 +26,29 @@ export const ProductList: React.FC = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-4">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {products
-          .slice(firstIndex, lastIndex)
-          .map((product: ProductNakama, index: number) => (
-            <ProductCard key={index} productNakama={product} />
-          ))}
-      </div>
+    <Flowbite
+      theme={{ theme: { pagination: paginationTheme, button: buttonTheme } }}
+    >
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {products
+            .slice(firstIndex, lastIndex)
+            .map((product: ProductNakama, index: number) => (
+              <ProductCard key={index} productNakama={product} />
+            ))}
+        </div>
 
-      <div className="flex overflow-x-auto sm:justify-center mt-8">
-        <Pagination
-          totalPages={totalProducts}
-          currentPage={currentPage}
-          onPageChange={onPageChange}
-        />
+        <div className="flex overflow-x-auto sm:justify-center mt-8">
+          <Pagination
+            theme={paginationTheme}
+            totalPages={totalProducts}
+            currentPage={currentPage}
+            onPageChange={onPageChange}
+            previousLabel="<"
+            nextLabel=">"
+          />
+        </div>
       </div>
-    </div>
+    </Flowbite>
   );
 };

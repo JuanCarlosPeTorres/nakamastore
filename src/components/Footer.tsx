@@ -42,8 +42,8 @@ export const FooterItem = () => {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright href="#" by="NakamaStore" year={2024} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon href="https://www.instagram.com/nakamastore.pe" icon={BsInstagram} />
-            <Footer.Icon href="https://www.tiktok.com/@nakamastore.oficial" icon={BsTiktok} />
+            <Footer.Icon href="https://www.instagram.com/nakamastore.pe" icon={BsInstagram} target="_blank" />
+            <Footer.Icon href="https://www.tiktok.com/@nakamastore.oficial" icon={BsTiktok} target="_blank" />
             <Footer.Icon href="#" icon={BsWhatsapp} />
           </div>
         </div>
