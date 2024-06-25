@@ -84,7 +84,7 @@ export const SearchProduct: React.FC = () => {
                 <img
                   src={
                     product.imagen === ""
-                      ? "../../funkos/01/1.png"
+                      ? "funkos/01/1.png"
                       : product.imagen
                   }
                   alt={product.nombre}
