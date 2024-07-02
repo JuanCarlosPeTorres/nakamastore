@@ -7,13 +7,13 @@ import { Banner } from "../components/Banner.tsx";
 <Layout title="NakamaStore - Catálogo de Funkos">
     <main>
       <Banner client:visible />
-      <ProductList client:visible />
+      <ProductList client:load />
     </main>
 </Layout>
 
 <style>
   main {
     margin: auto;
-    padding: 20px;
+    /* padding: 20px; */
   }
 </style>

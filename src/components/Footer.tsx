@@ -10,7 +10,7 @@ export const FooterItem = () => {
           <div>
             <Footer.Brand
               href="/"
-              src="funkos/logo/01.jpeg"
+              src="/funkos/logo/01.jpeg"
               alt="NakamaStore Logo"
               name="NakamaStore"
             />

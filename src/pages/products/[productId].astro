@@ -1,20 +1,22 @@
 ---
+import { Carousel } from "flowbite-react";
+import { Button } from "../../components/Button";
 import { CarouselImages } from "../../components/CarouselImages";
 import Layout from "../../layouts/Layout.astro";
 import { getData, getProduct } from "../../lib/data";
 import { type ProductNakama } from "../../lib/data";
-import { getProducts } from "../../lib/products";
+import { whatsappService } from "../../services/whatsappService";
+import { CarouselProducts } from "../../components/CarouselProducts";
+
 
 const { productId } = Astro.params;
 
-let product: ProductNakama | undefined;
-if (productId) {
-  product = await getProduct(productId);
-}
+let product: ProductNakama;
+product = await getProduct(productId);
 
-const images = getProducts()[0].image;
+const pathImages = product.imagen;
+const images = [`${pathImages}1.webp`, `${pathImages}2.webp`];
 
-console.log(images);
 
 export function getStaticPaths() {
   const products = getData();
@@ -42,11 +44,12 @@ export function getStaticPaths() {
       </p>
 
       <div class="flex items-center space-x-4">
-        <button
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        >
-          ADD TO CART
-        </button>
+        <Button
+          client:visible
+          nameProduct={product?.nombre}
+          styles="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          textButton="COMPRAR"
+        />
         <label class="flex items-center space-x-2">
           <input type="checkbox" class="mr-2" />
           <span class="text-gray-500">Gift Box ($3.50)</span>
@@ -59,7 +62,12 @@ export function getStaticPaths() {
         damage, stacks, and the clear plastic allows you to still see every side
         of your collectible. "
       </p>
-
     </div>
   </div>
+
+  <!-- {product !== undefined && product !== null && (
+    // <CarouselProducts productName={product.nombre} productCategory={product.categoria} productSerie={product.serie} productMarca={product.marca} client:load/>
+
+  )} -->
+
 </Layout>

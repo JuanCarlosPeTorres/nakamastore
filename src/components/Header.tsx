@@ -49,7 +49,7 @@ export const Header: React.FC = () => {
 
         <div className="flex items-center justify-start ml-0">
           <a href="/">
-            <span className="text-2xl sm:text-3xl font-bold">NakamaStore</span>
+            <span className="text-2xl sm:text-4xl font-bold">NakamaStore</span>
           </a>
         </div>
 
@@ -62,21 +62,21 @@ export const Header: React.FC = () => {
           </button>
         </div>
 
-        <nav className="hidden lg:flex space-x-4">
-          <a href="/" className="hover:text-nakama-orange">
-            Home
+        <nav className="hidden lg:flex space-x-6 ">
+          <a href="/" className="hover:text-nakama-orange text-2xl">
+            Inicio
           </a>
-          <a href="#" className="hover:text-nakama-orange">
-            About
+          <a href="#" className="hover:text-nakama-orange text-2xl">
+            Promociones
           </a>
-          <a href="#" className="hover:text-nakama-orange">
-            Services
+          <a href="#" className="hover:text-nakama-orange text-2xl">
+            Categorías
           </a>
-          <a href="#" className="hover:text-nakama-orange">
-            Pricing
+          <a href="#" className="hover:text-nakama-orange text-2xl">
+            Exclusivos
           </a>
-          <a href="#" className="hover:text-nakama-orange">
-            Contact
+          <a href="#" className="hover:text-nakama-orange text-2xl">
+            Sobre Nosotros
           </a>
         </nav>
 

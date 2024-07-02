@@ -1,6 +1,8 @@
 import React from "react";
 import { type ProductNakama } from "../lib/data";
 import { Badge, Tooltip } from "flowbite-react";
+import { whatsappService } from "../services/whatsappService";
+import { Button } from "./Button";
 
 interface ProductCardProps {
   productNakama: ProductNakama;
@@ -29,22 +31,26 @@ export const ProductCard: React.FC<ProductCardProps> = ({
               </Badge>
             </Tooltip>
           </div>
-          <div className="relative mb-2">
+          <div className="relative mb-2 w-full" style={{ height: "350px" }}>
             <img
-              className="w-full transition-opacity duration-300 ease-in-out group-hover:opacity-0"
+              className="w-full h-full object-cover transition-opacity duration-300 ease-in-out group-hover:opacity-0"
               src={
-                product.imagen === "" ? "funkos/01/1.png" : product.imagen
+                product.imagen === ""
+                  ? "funkos/01/1.png"
+                  : `${product.imagen}1.webp`
               }
               alt={product.nombre}
+              style={{ width: "100%", height: "100%" }}
             />
             <img
-              className="bg-white absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100"
+              className="bg-white absolute top-0 left-0 w-full h-full object-cover flex justify-center items-center opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100"
               src={
                 product.imagen === ""
                   ? "funkos/01/2.png"
-                  : "funkos/01/2.png"
+                  : `${product.imagen}2.webp`
               }
               alt={product.nombre}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
         </div>
@@ -57,9 +63,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           <p className="text-gray-700 mb-2 text-xl font-sans font-light">
             S/.{product.precio}
           </p>
-          <button className="bg-gray-300/40 border-2 hover:border-solid hover:border-spacing-3 hover:border-black text-black font-bold py-2 px-4 rounded-full w-full font-sans">
-            COMPRAR
-          </button>
+          <Button
+            nameProduct={product.nombre}
+            styles="bg-gray-300/40 border-2 hover:border-solid hover:border-spacing-3 hover:border-black text-black font-bold py-2 px-4 rounded-full w-full font-sans"
+            textButton="COMPRAR"
+          />
         </div>
       </a>
     </div>
